@@ -82,6 +82,9 @@ while running:
         # Interpolación líneal del cuadrado m para seguir al s
         square2.x += direction * lerp_factor
 
+
+        # Empezamos la prueba
+        
         # Asegurar que el cuadrado m se mueva con una velocidad minima
         if abs(direction) > minMSquareSpeed:
             square2.x += minMSquareSpeed if direction > 0 else -minMSquareSpeed
